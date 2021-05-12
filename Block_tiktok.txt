@@ -5,7 +5,7 @@
 # This blocklist helps Pi-hole's admin restrict access to tiktok and its domains.    #
 #                                                                                    # 
 # Affecting on: Websites and Application. (Block for all operating systems)          # 
-# Source      : https://github.com/Eng-Retro/Pi-hole/blob/main/Block_tiktok.txt      # 
+# Source      : https://github.com/ENG-MD-HUB/Pi-hole/blob/main/Block_tiktok.txt     # 
 # Last updated: 12/05/2021                                                           # 
 # Updated by  : Eng-MD                                                               # 
 #                                                                                    # 
