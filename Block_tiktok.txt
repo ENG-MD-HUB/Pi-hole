@@ -6,7 +6,7 @@
 #                                                                                    # 
 # Affecting on: Websites and Application.                                            # 
 # Source      : https://github.com/ENG-MD-HUB/Pi-hole/blob/main/Block_tiktok.txt     # 
-# Last updated: 12/05/2021                                                           # 
+# Last updated: 18/05/2021                                                           # 
 # Updated by  : Eng-MD                                                               # 
 #                                                                                    # 
 # Copyright (c) 2021 Mohammad Alamoudi                                               # 
@@ -34,7 +34,6 @@
 0.0.0.0 m.tiktok.com
 0.0.0.0 mon.musical.ly 
 0.0.0.0 mon.tiktokv.com
-0.0.0.0 mon.tiktokv.com
 0.0.0.0 mon-va.tiktokv.com
 0.0.0.0 muscdn.com
 0.0.0.0 musical.ly
@@ -45,27 +44,40 @@
 0.0.0.0 ns-440.awsdns-55.com
 0.0.0.0 ns-722.awsdns-26.net
 0.0.0.0 p16-sg.tiktokcdn.com
-0.0.0.0 p16-sign-sg.tiktokcdn.com
 0.0.0.0 p16-sign-va.tiktokcdn.com
-0.0.0.0 p16-tiktokcdn-com.akamaized.net
 0.0.0.0 p16-tiktokcdn-com.akamaized.net
 0.0.0.0 p77-sg.tiktokcdn.com
 0.0.0.0 pull-cmaf-f16-va01.tiktokcdn.com
+0.0.0.0 pull-cmaf-f16-va01.tiktokcdn.com 
 0.0.0.0 pull-cmaf-f5.tiktokcdn.com
+0.0.0.0 pull-cmaf-f5.tiktokcdn.com.c.worldfcdn.com
 0.0.0.0 pull-f5-ab.tiktokcdn.com
+0.0.0.0 pull-f5-ab.tiktokcdn.com 
 0.0.0.0 pull-f5-gcp01.tiktokcdn.com
+0.0.0.0 pull-f5-gcp01.tiktokcdn.com 
 0.0.0.0 pull-f5-sg01.tiktokcdn.com
+0.0.0.0 pull-f5-sg01.tiktokcdn.com
+0.0.0.0 pull-f5-va01.tiktokcdn.com
+0.0.0.0 pull-flv-f11.tiktokcdn.com 
 0.0.0.0 pull-flv-f11-ab.tiktokcdn.com
+0.0.0.0 pull-flv-f11-va01.tiktokcdn.com
 0.0.0.0 pull-flv-f1-ab.tiktokcdn.com
 0.0.0.0 pull-flv-f1-sg01.tiktokcdn.com
 0.0.0.0 pull-flv-f1-va01.tiktokcdn.com
 0.0.0.0 pull-flv-l1.tiktokcdn.com
 0.0.0.0 pull-flv-l11-va01.tiktokcdn.com
-0.0.0.0 pull-flv-l1-va01.tiktokcdn.com
+0.0.0.0 pull-flv-l1-va01.tiktokcdn.com 
+0.0.0.0 pull-hls-f11-ab.tiktokcdn.com
 0.0.0.0 pull-hls-f11-va01.tiktokcdn.com
 0.0.0.0 pull-hls-f16-sg01.tiktokcdn.com
+0.0.0.0 pull-hls-f16-va01.tiktokcdn.com 
+0.0.0.0 pull-hls-f1-ab.tiktokcdn.com
+0.0.0.0 pull-hls-f1-sg01.tiktokcdn.com
+0.0.0.0 pull-hls-f1-va01.tiktokcdn.com
 0.0.0.0 pull-hls-l1.tiktokcdn.com
+0.0.0.0 pull-hls-l11-sg01.tiktokcdn.com
 0.0.0.0 pull-hls-l11-va01.tiktokcdn.com
+0.0.0.0 pull-hls-l1-sg01.tiktokcdn.com 
 0.0.0.0 pull-hls-l1-va01.tiktokcdn.com
 0.0.0.0 pull-hls-q5.tiktokcdn.com
 0.0.0.0 pull-hls-q5-sg01.tiktokcdn.com
@@ -77,10 +89,17 @@
 0.0.0.0 pull-q5-va01.tiktokcdn.com
 0.0.0.0 pull-rtmp-f1.tiktokcdn.com
 0.0.0.0 pull-rtmp-f11-sg01.tiktokcdn.com
+0.0.0.0 pull-rtmp-f1-ab.tiktokcdn.com
 0.0.0.0 pull-rtmp-f1-sg01.tiktokcdn.com
+0.0.0.0 pull-rtmp-f1-sg01.tiktokcdn.com.wsdvs.com
 0.0.0.0 pull-rtmp-f1-va01.tiktokcdn.com
+0.0.0.0 pull-rtmp-l1.tiktokcdn.com.wsdvs.com
 0.0.0.0 pull-rtmp-l11.tiktokcdn.com
 0.0.0.0 pull-rtmp-l11-sg01.tiktokcdn.com
+0.0.0.0 pull-rtmp-l11-va01.tiktokcdn.com 
+0.0.0.0 pull-rtmp-l1-sg01.tiktokcdn.com
+0.0.0.0 pull-w5.tiktokcdn.com
+0.0.0.0 pull-w5-sg01.tiktokcdn.com
 0.0.0.0 t.tiktok.com
 0.0.0.0 tiktok.bytedance.map.fastly.net
 0.0.0.0 tiktok.com
@@ -93,7 +112,6 @@
 0.0.0.0 v16-tiktokcdn-com.akamaized.net
 0.0.0.0 v19.muscdn.com
 0.0.0.0 v19.tiktokcdn.com
-0.0.0.0 v19.tiktokcdn.com
 0.0.0.0 v19-hwp.tiktokcdn.com
 0.0.0.0 v19-us.tiktokcdn.com
 0.0.0.0 v19-web.tiktokcdn.com
@@ -103,6 +121,4 @@
 0.0.0.0 vt.tiktok.com
 0.0.0.0 webcast16-normal-c-alisg.tiktokv.com
 0.0.0.0 www.tiktok.com
-0.0.0.0 www.tiktok.com
 0.0.0.0 xlog.tiktokv.com
-
